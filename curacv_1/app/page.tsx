@@ -19,8 +19,8 @@ export default function Home() {
       <div className="flex justify-end absolute top-0 right-0">
         <Button>Login/SignUp</Button>
       </div>
-      <div className="flex items-center justify-center m-auto min-h-screen flex-col">
-        <Card className="w-[500px] bg-black text-white border-gray-800">
+      <div className="flex items-center justify-center m-auto min-h-screen flex-col py-8 px-4">
+        <Card className="max-w-[500px] bg-black text-white border-gray-800">
           <CardHeader className="p-6">
             <CardDescription className="text-sm">We&rsquo;re launching...</CardDescription>
             <CardTitle className="flex flex-row items-center mt-2">
